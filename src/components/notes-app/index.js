@@ -125,10 +125,8 @@ export default class NotesApp extends Component {
       completedNotes,
       activeNotes,
       otherNotes,
-      currentTab,
       status,
-      title,
-      list
+      title
     } = this.state;
     const note = {
       title,
